@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess Management System</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #2E86C1;
+            padding: 25px;
+            color: white;
+            text-align: center;
+        }
+
+        nav {
+            background: #1B4F72;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 85%;
+            margin: 20px auto;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #2E86C1;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        th {
+            background: #2E86C1;
+            color: white;
+        }
+
+        footer {
+            background: #1B2631;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mess Management System</h1>
+        <p>Hostel Mess Automation & Meal Tracking</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#menu">Today's Menu</a>
+        <a href="#attendance">Attendance</a>
+        <a href="#payment">Payments</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- About Section -->
+        <div class="card" id="about">
+            <h2>About the Mess System</h2>
+            <p>
+                The Mess Management System simplifies meal planning, student registration,
+                attendance tracking, and payment management. It is designed for hostels,
+                colleges, and institutions to automate daily mess operations efficiently.
+            </p>
+        </div>
+
+        <!-- Menu Section -->
+        <div class="card" id="menu">
+            <h2>Today's Menu</h2>
+            <table>
+                <tr>
+                    <th>Meal</th>
+                    <th>Items</th>
+                </tr>
+                <tr>
+                    <td>Breakfast</td>
+                    <td>Poha / Upma, Tea</td>
+                </tr>
+                <tr>
+                    <td>Lunch</td>
+                    <td>Chapati, Rice, Dal, Sabji</td>
+                </tr>
+                <tr>
+                    <td>Dinner</td>
+                    <td>Pulav, Raita, Roti, Sweet</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Attendance Section -->
+        <div class="card" id="attendance">
+            <h2>Meal Attendance</h2>
+            <table>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Breakfast</th>
+                    <th>Lunch</th>
+                    <th>Dinner</th>
+                </tr>
+                <tr>
+                    <td>Rohit Sharma</td>
+                    <td>Present</td>
+                    <td>Present</td>
+                    <td>Absent</td>
+                </tr>
+                <tr>
+                    <td>Priya Patil</td>
+                    <td>Absent</td>
+                    <td>Present</td>
+                    <td>Present</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Payment Section -->
+        <div class="card" id="payment">
+            <h2>Payment Details</h2>
+            <table>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Month</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Amit Desai</td>
+                    <td>January</td>
+                    <td>Paid</td>
+                </tr>
+                <tr>
+                    <td>Neha Kulkarni</td>
+                    <td>January</td>
+                    <td>Pending</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2025 Mess Management System | All Rights Reserved
+    </footer>
+
+</body>
+
+</html>
